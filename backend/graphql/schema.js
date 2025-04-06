@@ -1,6 +1,9 @@
 const { buildSchema } = require("graphql");
 
 module.exports = buildSchema(`
+
+  scalar Upload
+  
   type User {
     _id: ID!
     username: String!
@@ -24,9 +27,22 @@ module.exports = buildSchema(`
     created_at: String
     updated_at: String
   }
+  
+input EmployeeInput {
+  first_name: String!
+  last_name: String!
+  email: String!
+  gender: String!
+  designation: String!
+  salary: Float!
+  date_of_joining: String!
+  department: String!
+  employee_photo: String
+}
 
   type AuthData {
     userId: ID!
+    username: String!
     token: String!
   }
 
@@ -39,8 +55,8 @@ module.exports = buildSchema(`
 
   type Mutation {
     signup(username: String!, email: String!, password: String!): User
-    addEmployee(first_name: String!, last_name: String!, email: String!, gender: String!, designation: String!, salary: Float!, date_of_joining: String!, department: String!): Employee
-    updateEmployee(id: ID!, first_name: String, last_name: String, email: String, gender: String, designation: String, salary: Float, date_of_joining: String, department: String): Employee
+    addEmployee(employee: EmployeeInput!, employee_photo: Upload): Employee
+    updateEmployee(id: ID!, employee: EmployeeInput!, employee_photo: Upload): Employee
     deleteEmployee(id: ID!): String
   }
 `);

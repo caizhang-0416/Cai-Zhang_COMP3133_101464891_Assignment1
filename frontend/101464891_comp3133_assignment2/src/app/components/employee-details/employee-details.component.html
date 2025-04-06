@@ -1,0 +1,33 @@
+<mat-card *ngIf="employee" class="employee-details-card">
+  <mat-card-header>
+    <mat-card-title>{{ employee.first_name }} {{ employee.last_name }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <img [src]="employee_photo" alt="Employee Photo" class="employee-photo" />
+    <mat-grid-list cols="2" rowHeight="6:1">
+      <mat-grid-tile>
+        <p><strong>Email:</strong> {{ employee.email }}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Gender:</strong> {{ employee.gender }}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Designation:</strong> {{ employee.designation }}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Salary:</strong> {{ employee.salary }}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Date of Joining:</strong> {{ employee.date_of_joining | date }}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Department:</strong> {{ employee.department }}</p>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card-content>
+</mat-card>
+<mat-card *ngIf="!employee">
+  <mat-card-content>
+    <p>Loading employee details...</p>
+  </mat-card-content>
+</mat-card>

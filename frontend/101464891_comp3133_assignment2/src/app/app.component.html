@@ -1,0 +1,9 @@
+<mat-toolbar *ngIf="isLoggedIn">
+  <mat-toolbar-row>
+    <span>Employee Management System</span>
+    <span class="spacer"></span>
+    <div class="username">{{username.slice(0, 1)}}</div>
+    <button mat-button (click)="logout()">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet />
