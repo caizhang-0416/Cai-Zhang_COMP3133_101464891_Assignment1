@@ -12,8 +12,8 @@
 ![employeeList.png](public/assets/images/employeeList.png)
 ## employee details
 ![img.png](public/assets/images/employeeDetails.png)
-## employee edit
-![img_2.png](public/assets/images/employeeEdit.png)
+## employee edit!
+![employeeeEdit.png](public/assets/images/employeeeEdit.png)
 ## employee delete
 ![img_3.png](public/assets/images/employeeDelete.png)
 ## employee search by department
