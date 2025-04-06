@@ -1,8 +1,10 @@
 # 101464891Comp3133Assignment2
-##SignUP![SigUp.png](public/assets/images/SigUp.png)
+## SignUP!
+![SigUp.png](public/assets/images/SigUp.png)
 
-##SignIn
-![img_1.png](public/assets/images/SigIn.png)
+## SignIn
+![signIn.png](public/assets/images/signIn.png)
+
 
 ## add new employee
 ![addNewEmployee.png](public/assets/images/addNewEmployee.png)
@@ -14,11 +16,12 @@
 ![img_2.png](public/assets/images/employeeEdit.png)
 ## employee delete
 ![img_3.png](public/assets/images/employeeDelete.png)
-## employee search
+## employee search by department
 ![img_4.png](public/assets/images/employeeSearch.png)
+## employee search by position
 ![employeeSearchByPosition.png](public/assets/images/employeeSearchByPosition.png)
 ## MongoDB
-![img.png](img.png)
+![img.png](public/assets/images/mogodb.png)
 
 
 ## keyfeatures
