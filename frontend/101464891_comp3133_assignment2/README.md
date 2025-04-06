@@ -1,4 +1,45 @@
 # 101464891Comp3133Assignment2
+##SignUP![SigUp.png](public/assets/images/SigUp.png)
+
+##SignIn
+![img_1.png](public/assets/images/SigIn.png)
+
+## add new employee
+![addNewEmployee.png](public/assets/images/addNewEmployee.png)
+## employee list
+![employeeList.png](public/assets/images/employeeList.png)
+## employee details
+![img.png](public/assets/images/employeeDetails.png)
+## employee edit
+![img_2.png](public/assets/images/employeeEdit.png)
+## employee delete
+![img_3.png](public/assets/images/employeeDelete.png)
+## employee search
+![img_4.png](public/assets/images/employeeSearch.png)
+![employeeSearchByPosition.png](public/assets/images/employeeSearchByPosition.png)
+## MongoDB
+![img.png](img.png)
+
+
+## keyfeatures
+- User authentication with JWT
+- User registration
+- User login
+- User logout
+- User profile management
+- employee management
+- employee search
+- employee edit
+- employee delete
+- employee add
+- employee list
+- employee details
+- employee search by position
+- employee search by department
+
+
+
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
 
