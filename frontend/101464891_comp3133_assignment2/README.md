@@ -19,8 +19,7 @@
 ## employee search by department
 ![img_4.png](public/assets/images/employeeSearch.png)
 ## employee search by position
-![employeeSearch2.png](public/assets/images/employeeSearch2.png)
-
+![img.png](public/assets/images/img.png)
 ## MongoDB
 ![img.png](public/assets/images/mogodb.png)
 
